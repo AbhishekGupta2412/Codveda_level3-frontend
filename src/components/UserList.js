@@ -7,7 +7,7 @@ function UserList() {
 
   useEffect(() => {
     // We will connect this to our backend API later
-    fetch("http://localhost:3000/users")
+    fetch("https://codveda-level3-backend-app.onrender.com")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
